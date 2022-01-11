@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = prompt ("Masukkan merk HP");//meminta user memasukkan nama merk motor
+        switch (a) {//switch dengan kondisi variable a
+            case "Redmi"://user memilih honda
+                document.write("Redmi Note 9 <br> Redmi Note 10 pro <br> Xiaomi Poco M3 <br> MI 11 Lite <br> MI 9T <br>  <br> MI 11T")//menampilkan produk Honda jika user menginputkan kata honda
+                break;//program berhenti
+            case "Samsung"://user memilih yamaha
+                document.write("Samsung Galaxy S21 <br> Samsung Galaxy S9+ <br> Samsung Galaxy Z Flip 3 <br> Samsung Galaxy Z Fold 3 <br> Samsung Galaxy A50 <br> Samsung Galaxy A20 <br> Samsung Galaxy A11")//menampilkan produk yamaha jika user menginputkan kata yamaha
+                break;//program berhenti
+            case "Iphone"://user memilih suzuki
+                document.write("Iphone 13 Pro Max<br> Iphone 8+ <br> Iphone 11 <br> Iphone X <br> Iphone 12 Pro <br> Iphone XR")//menampilkan produk suzuki jika user menginputkan kata suzuki
+                break; //program berhenti
+            default://jika user tidak memilih pilihan yang ada pada case maka akan default
+                document.write("Mohon Maaf, merk HP yang anda cari Tidak Ditemukan")//jika user memasukkan pilihan selain yang ada pada case maka akan menamplkan "Mohon Maaf, merk motor yang anda cari Tidak Ditemukan"
+                break;//program berhenti
+        }
+
+    </script>
+</body>
+</html>
